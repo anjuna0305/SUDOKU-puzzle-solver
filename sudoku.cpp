@@ -59,7 +59,7 @@ int colCheck(int x, int y, int lett)
 
 void printTable()
 {
-    for (int i = 0; i < 9; i++)
+    for (int i = 0; i < size; i++)
     {
         for (int k = 0; k < size; k++)
             cout << "----";
